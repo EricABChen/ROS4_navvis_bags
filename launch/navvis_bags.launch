@@ -1,6 +1,8 @@
 <launch>
+    <!-- path of the data -->
     <arg name="bag_path" default="$(find navvis_bags)/raw_bags/glennan_5_complete.bag"/>
 
+    <!-- Param setup fro imu.xacro -->
     <include file="$(find navvis_bags)/launch/navvis_description.launch">
         <arg name="use_xacro" value="true"/>
         <arg name="file" value="$(find navvis_bags)/urdf/imu.xacro"/>
