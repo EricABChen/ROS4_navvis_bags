@@ -12,12 +12,12 @@ In order to run/view this model, the listed dependencies MUST be satisfied:
 -  map file (view map file section for detailed detailed information)
 
 ## Map File
-The data of this implementation comes from a private dataset and is NOT included in this implementation
+The data of this implementation comes from a private dataset and is NOT included in this implementation, by default, the data should be stored within `~/catkin_ws/src/<packagename>/raw_bags/`
 
 ## RUN
 To view the robot model in RVIZ, you need to first download this package into
 
-`./catkin_ws/src/`
+`~/catkin_ws/src/`
 
 Build the package with
 
@@ -34,6 +34,8 @@ MAKE SURE the data is inside folder `raw_bags`,then launch the model with RVIZ:
 ## Param
 
 `"bag_path": The path of your own bag data`
+
+Note: if the data is stored within `~/<packagename>/raw_bags/`, you can launch the model without configuring this param
 
 ## To view the navvis_robot model:
 
