@@ -1,4 +1,4 @@
-# Lab3: ecse473_f23_axc1293_navvis_bags
+# ROS4_navvis_bags
 
 ## Package description
 This repo is a ROS package that contains the bags and playbacks of a navvis robot routing within Glennan Bldg
